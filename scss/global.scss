@@ -1,0 +1,12 @@
+body {
+	font-family: $font-main;
+}
+*{
+	box-sizing: border-box;
+}
+button{
+	outline: none;
+	&:focus{
+		outline: none;
+	}
+}
