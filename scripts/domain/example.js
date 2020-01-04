@@ -126,11 +126,11 @@ $(document).ready(function() {
   });
   
 
-  // //scroll
-  // $(".scroll-link").click(function (event) {
-  //   event.preventDefault();
-  //   var id  = $(this).attr('href'),
-  //     top = $(id).offset().top;
-  //   $('body,html').animate({scrollTop: top - 120}, 1500);
-  // });
+  //scroll
+  $(".scroll-link").click(function (event) {
+    event.preventDefault();
+    var id  = $(this).attr('href'),
+      top = $(id).offset().top;
+    $('body,html').animate({scrollTop: top - 100}, 1500);
+  });
 });
