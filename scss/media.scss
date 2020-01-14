@@ -162,6 +162,7 @@
         font-size: 13px;
         margin-right: 8px;
         padding: 7px 15px;
+        margin-bottom: 20px;
       }
     } 
     .statistics{
@@ -174,9 +175,78 @@
 }
 
 @media(max-width: 550px){
-
+  main .emblems .emblems-wrap{
+    .img-max,
+    .img-min {
+      height: unset;
+      display: flex;
+      justify-content: center;
+    }
+    img{
+      width: 50%;
+    }
+  }
 }
 
 @media(max-width: 480px){
-
+  header .logo{
+    font-size: 23px;
+    img{
+      max-width: 45px;
+    }
+  }
+  main{
+    .owl-carousel-1{
+      .slide{
+        h3 {
+          margin: 0 0 35px;
+        }
+        h1, h4, h2{
+          font-size: 20px;
+        }
+      }
+    }  
+    .btn {
+      width: 115px;
+      font-size: 11px;
+    }
+    .skills .skill {
+      width: 100%;
+      margin-top: 40px;
+    }
+    .waxom-realization {
+      padding-top: 50px;
+      .waxom-multipurpose{
+        h3 {
+          font-size: 15px;
+        }
+        h4{
+          font-size: 13px;
+        }
+      } 
+    }
+    .mobile-devices .img-mobile{
+      img{
+        width: 100%;
+      }
+    }
+    .statistics .statistics-category {
+      width: 50%;
+    }
+    .latest-projects{
+      .tabs-content .latest-tabs{
+        width: 100%;
+        .text-latest{
+          padding-left: 10px;
+        }
+        
+      }
+    } 
+  } 
+  footer{
+    padding: 50px 0 0;
+    .flex-3 h3{
+      margin-top: 20px;
+    }
+  }
 }

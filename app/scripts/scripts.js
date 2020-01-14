@@ -136,6 +136,11 @@ $(document).ready(function () {
     $('#mobile-navigation').toggleClass('open');
   });
 
+  $('.humburger').click(function () {
+    $(this).toggleClass('open');
+    $('#mobile-navigation').toggleClass('open');
+  });
+
   //scroll
   $(".scroll-link").click(function (event) {
     event.preventDefault();
