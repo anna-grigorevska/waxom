@@ -172,6 +172,15 @@
       }
     } 
   }
+  .video-modal-wrap .video-modal{
+    min-width: unset;
+    width: 95%;
+    max-width: 450px;
+    height: 300px;
+    .video{
+      height: 100%;
+    }
+  }
 }
 
 @media(max-width: 550px){
